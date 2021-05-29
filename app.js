@@ -12,12 +12,12 @@ myBtn.addEventListener("click", function(){
 
     document.getElementById("color").innerHTML = "Background color is: " + colors[randomNumber]
     if(randomNumber == 0){
-        document.getElementById("color").style.color = "black"
+        document.getElementById("color").style.color = "blue"
         document.getElementById("heading").style.color = "white"
     }
     else if (randomNumber == 1)
     {
-        document.getElementById("color").style.color = "blue"
+        document.getElementById("color").style.color = "white"
         document.getElementById("heading").style.color = "black"
     }
     else if (randomNumber == 2)
